@@ -1,32 +1,49 @@
-
 # Admin Dashboard
 
 The project involves creating a simple admin dashboard that displays a list of users and allows adding, editing, and deleting users.
 
 ## Features
 
-- Use **React** with functional components
-- Use **React Router** for navigation
-- Implement a login page with authentication (store user session in `localStorage`)
-- Use **Context API** or **Redux** for state management
-- Fetch user data from a mock API (JSONPlaceholder or create a simple Node.js API)
-- Implement **CRUD operations** for users (Create, Read, Update, Delete)
-- Validate forms using **Yup** and **React Hook Form**
-- Use **TailwindCSS** for styling
-- Ensure responsiveness for mobile and desktop views
-- **Node.js** for backend login and signup functionality
-- **MongoDB** for storing user data
-
-## Tech Stack
-
-- **Frontend**: React, React Router, Context API/Redux, TailwindCSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Validation**: Yup, React Hook Form
-- **API**: JSONPlaceholder or custom Node.js API
+- **User Authentication**: Login system with session management stored in `localStorage`.
+- **CRUD Operations**: Create, Read, Update, and Delete users.
+- **State Management**: Implemented using  Redux.
+- **Form Validation**: Validations using  React Hook Form.
+- **API Integration**: use axios .
+- **Routing**: Implemented using React Router for page navigation.
+- **Styling**: Designed with TailwindCSS for a clean and responsive UI.
+- **Backend**: Node.js for login and signup functionality.
+- **Database**: MongoDB for storing user data.
 
 ## Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hadiaasghar/Admin-Dashboard.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd adminpanel
+   ```
+
+3. Install dependencies for the client:
+   ```bash
+   cd client
+   npm install
+   ```
+
+4. Install dependencies for the backend:
+   ```bash
+   cd ../server
+   npm install
+   ```
+
+5. Start the development servers:
+   - Frontend:
+     ```bash
+     npm run dev
+     ```
+   - Backend:
+     ```bash
+     npm run start
+     ```
