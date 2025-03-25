@@ -17,16 +17,13 @@ The project involves creating a simple admin dashboard that displays a list of u
 - **Node.js** for backend login and signup functionality
 - **MongoDB** for storing user data
 
-## Tech Stack
 
-- **Frontend**: React, React Router, Context API/Redux, TailwindCSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Validation**: Yup, React Hook Form
-- **API**: JSONPlaceholder or custom Node.js API
 
 ## Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hadiaasghar/Admin-Dashboard.git
+
+
+
